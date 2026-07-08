@@ -1,0 +1,410 @@
+/* Google Reset */
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    color:#181818;
+}
+
+/* Common Section */
+
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    width:100%;
+    object-fit: cover;
+}
+ul{
+    list-style: none;
+}
+.btn{
+    background:#FD6E0A;
+    padding:15px 30px;
+    border-radius: 5px;
+    border:none;
+    color:white;
+    font-size: 16px;
+    font-weight: 550;
+    cursor: pointer;
+    transition: .3s;
+    letter-spacing: 0.5px;
+
+}
+.btn:hover{
+    background:#d75d07 ;
+}
+.contact-btn{
+    background:white;
+    padding:15px 30px;
+    border-radius: 5px;
+    border:0.8px solid #FD6E0A;
+    color:#FD6E0A;
+    font-size: 16px;
+    font-weight: 550;
+    cursor: pointer;
+    transition: .3s;
+    letter-spacing: 0.5px;
+
+}
+.contact-btn:hover{
+    background: rgb(235, 233, 233);
+}
+.container{
+    width:90%;
+    max-width: 1200px;
+    margin:auto;
+}
+
+/*  Header Section */
+
+.header-part{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+
+}
+.logo{
+    color:black;
+    font-size: 38px;
+    font-weight: 800;
+    transition: .3s;
+}
+.logo-r{
+    color:#FD6E0A;
+}
+nav ul{
+    display: flex;
+    gap:50px;
+    align-items: center;
+}
+nav a{
+    color:#474747;
+    transition: .3s;
+}
+nav .btn{
+    /* background: #FD6E0A; */
+}
+
+/* Hero Section CSS */
+
+.hero-section{
+    /* margin-top: 10px; */
+    padding:50px 0;
+    height: 100%;
+    background:#fff8f3;
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-button{
+    display: flex;
+    gap:20px
+}
+.hero-text h3{
+    font-size: 45px;
+    font-weight: 600;
+    color:#474747;
+}
+.hero-text h1{
+    font-size: 85px;
+    font-weight: 700;
+    color:#181818;
+}
+.hero-text p{
+    font-size: 18px;
+    color:#757575;
+    margin: 10px 0 30px;
+}
+
+/* About Me Section */
+
+
+.about-me-section{
+    text-align: center;
+    background:#FFF8F3;
+    margin-top: 20px;
+    padding:80px;
+}
+.about-me-section h3{
+    font-size: 35px;
+    color:#181818;
+    font-weight: 700;
+}
+.paragraph-description{
+    font-size: 16px;
+    color:#757575;
+    line-height: 25px;
+    padding:20px 0px;
+}
+.info-card-parent{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.label{
+    font-size: 17px;
+    color:#757575;
+}
+.value{
+    font-size: 18;
+    font-weight: 700;
+    color:#474747;
+}
+
+/* What I do */
+
+.what-i-do-section{
+    margin-top: 20px;
+    padding:80px 0px;
+}
+
+.what-i-do-heading{
+    font-size: 35px;
+    color:#181818;
+    font-weight: 700;
+    text-align: center;
+}
+.what-i-do-paragraph{
+    font-size: 16px;
+    color:#757575;
+    line-height: 25px;
+    padding:30px 0px;
+    max-width: 870px;
+    text-align: center;
+    margin:0 auto;
+}
+.what-i-do-card-parent{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.img-group{
+    display: flex;
+    gap:5px;
+}
+.img-group img{
+    display: block;
+    width:100%;
+    height: 100%;
+    max-width: 44px;
+}
+.card{
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.10);
+    padding:30px;
+    flex: 1;
+    max-width: 270px;
+}
+.card h3{
+    color:#181818;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 25px 0px;
+}
+.card p{
+    color:#757575;
+    font-size: 16px;
+    line-height: 27px;
+    max-width: 190px;
+}
+
+/* Summery Section */
+
+.summery-heading{
+    color:#181818;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin:20px 0px 90px;
+}
+.grid-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap:30px;
+}
+.grid-bottom-border{
+    border-bottom: 1px solid #D1D1D1;
+}
+.grid h3{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 35px;
+
+}
+.degree-title{
+    color:#474747;
+    font-size: 22px;
+    font-weight: 700;
+    margin:10px 0px;
+}
+.university-text{
+    color:#757575;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.degree-description{
+    color:#757575;
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+.download-btn{
+    margin: 30px 0px 70px;
+    text-align: center;
+}
+
+/* My Amazing Work */
+.my-amazing-work{
+    margin:110px 0px;
+}
+
+.amazing-work-heading{
+    text-align: center;
+    margin-bottom:55px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.gallery img{
+    height: 100%;
+    object-fit: cover;
+    transition: .3s;
+    cursor: pointer;
+}
+.gallery img:hover{
+    transform: translateY(-8px);
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap:15px;
+    grid-template-areas: 
+    "A B C"
+    "D B F"
+    "D E F"
+    ;
+}
+
+.box-1{
+    grid-area: A;
+}
+.box-2{
+    grid-area: B;
+}
+.box-3{
+    grid-area: C;
+}
+.box-4{
+    grid-area: D;
+}
+.box-5{
+    grid-area: E;
+}
+.box-6{
+    grid-area: F;
+}
+
+
+/* Connect Section */
+.connect-section{
+    background: #FFF8F3;
+}
+.connect-parent{
+    display: flex;
+    padding:100px 0px;
+    justify-content: space-between;
+
+    
+}
+.left-connect-section{
+    flex: 1;
+}
+.left-connect-section h2{
+    font-size: 30px;
+    font-weight: 700;
+    color:#181818;
+    margin-bottom: 15px;
+}
+.left-connect-section p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#474747;
+    margin-bottom: 20px;
+    line-height: 25px;
+    max-width: 560px;
+}
+.icon-group{
+    display: flex;
+    gap:20px;
+    cursor: pointer;
+}
+.icon-group img{
+    max-width:20px;
+    transition: 0.3 ease;
+}
+.icon-group img:hover{
+    transform: translateY(-5px);
+}
+
+.right-connect-section{
+    flex:1;
+    
+}
+.right-connect-section h2{
+    font-size: 30px;
+    font-weight: 700;
+    color:#181818;
+    margin-bottom: 15px;
+    
+}
+.contact-form{
+    width:100%;
+    max-width: 450px;
+    margin-left: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    
+}
+
+textarea{
+    resize: none;
+}
+.right-connect-section input,
+.right-connect-section textarea{
+    padding:15px;
+    border-radius:5px;
+    border:none;
+}
+.right-connect-section input::placeholder,
+.right-connect-section textarea::placeholder{
+    color:#757575;
+}
+.right-connect-section button{
+    align-self: flex-start;
+}

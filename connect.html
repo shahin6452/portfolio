@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect</title>
+    <style>
+        /* Google Reset */
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+
+        }
+
+        body {
+            font-family: "Open Sans", sans-serif;
+            color: #181818;
+        }
+
+        /* Common Section */
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .btn {
+            background: #FD6E0A;
+            padding: 15px 30px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 550;
+            cursor: pointer;
+            transition: .3s;
+            letter-spacing: 0.5px;
+
+        }
+
+        .btn:hover {
+            background: #d75d07;
+        }
+
+        .contact-btn {
+            background: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            border: 0.8px solid #FD6E0A;
+            color: #FD6E0A;
+            font-size: 16px;
+            font-weight: 550;
+            cursor: pointer;
+            transition: .3s;
+            letter-spacing: 0.5px;
+
+        }
+
+        .contact-btn:hover {
+            background: rgb(235, 233, 233);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            background:#f9e9de;
+            height: 3600px;
+        }
+
+        .connect-section {
+            background: #FFF8F3;
+        }
+
+        .connect-section-parent {
+            display: flex;
+            justify-content: space-between;
+            margin: 100px 0px;
+            padding: 70px 40px;
+        }
+
+        .left-connect-section {
+            flex: 1;
+        }
+
+        .left-connect-section h2 {
+            font-weight: 700;
+            font-size: 35px;
+        }
+
+        .left-connect-section p {
+            color: #474747;
+            line-height: 28px;
+            margin: 20px 0px;
+        }
+
+        .img-group {
+            display: flex;
+            gap: 15px;
+        }
+
+        .img-group img {
+            max-width: 24px;
+        }
+
+        .right-connect-section {
+            flex: 1;
+
+        }
+        .contact-form{
+            width:100%;
+            max-width: 450px;
+            margin-left:auto;
+        }
+        .contact-form h2 {
+            font-weight: 700;
+            font-size: 35px;
+            margin-bottom: 20px;
+            
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+        }
+        textarea{
+            resize: none;
+        }
+        form input,
+        form textarea{
+            padding:15px;
+            border-radius: 5px;
+            border:1px solid gray;
+        }
+        .contact-form button{
+            align-self: flex-start;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section class="connect-section">
+        <div class="container">
+            <div class="connect-section-parent">
+                <div class="left-connect-section">
+                    <h2>Lets Connect</h2>
+                    <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M
+                        ET,
+                        Monday through Friday.</p>
+                    <div class="img-group">
+                        <img src="./images/icons/facebook.png" alt="">
+                        <img src="./images/icons/twitter.png" alt="">
+                        <img src="./images/icons/insta.png" alt="">
+                    </div>
+                </div>
+                <div class="right-connect-section">
+                    <div class="contact-form">
+                        <h2>Lets Message Me</h2>
+                        <form action="#">
+                            <input type="text" placeholder="Your name">
+                            <input type="email" name="email" placeholder="Your email">
+                            <textarea name="message" cols="20" rows="10" id="" placeholder="Message"></textarea>
+                            <button type="button" class="btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
